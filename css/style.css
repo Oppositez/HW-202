@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#home-screen{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: honeydew;
+    text-align: center;
+}
+
+#welcome-text{
+    padding-top: 2%;
+}
+
+#change-bg-color{
+    color: brown;
+    margin-top: 3%;
+}
+
+#box{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+    
+    
+   
+}
+#name{
+    color: crimson;
+}
+
+.animate-box{
+    animation: test 5s;
+}
+
+
+@keyframes slide{
+    0%{
+        margin: 10px auto;
+    }
+    25%{
+        margin: 10px auto 10px 0px;
+    }
+    50%{
+        margin: 10px auto;
+    }
+    75%{
+        margin: 10px 0px 10px auto;
+    }
+    100%{
+        margin: 10px auto;
+    }
+}
+
+@keyframes test{
+    0%{
+        width: 200px;
+        height: 200px;
+    }
+    50%{
+        width: 50px;
+        height: 50px;
+    }
+    100%{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+#image{
+    position: absolute;
+    width: 200px;
+    top: 500px;
+    left: 100px;
+}
